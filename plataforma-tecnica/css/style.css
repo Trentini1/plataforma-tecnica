@@ -1,0 +1,90 @@
+/* Estilos Gerais do Corpo da Página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo do Conteúdo Principal */
+main {
+    padding: 20px 0;
+}
+
+/* Card de informações do motor */
+.engine-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.engine-card h2 {
+    color: #0779e4;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+.engine-card h3 {
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Estilo para as Tabelas de Especificações */
+.spec-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaço entre as bordas */
+    margin-top: 15px;
+}
+
+.spec-table th, .spec-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Estilo para a primeira coluna da tabela (descrição) */
+.spec-table td:first-child {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    width: 40%;
+}
+
+/* Cabeçalho da tabela de torques */
+.spec-table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 30px;
+}
